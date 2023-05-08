@@ -13,14 +13,12 @@ import shop.readmecorp.userserverreadme.modules.user.dto.UserDTO;
 @NoArgsConstructor
 public class ReviewSaveRequest {
 
-    private UserDTO user;
+    private Integer userId;
 
-    private BookDTO book;
+    private Integer bookId;
 
     private Double stars;
 
     private String content;
-
-    private String writeTime;
 
 }
